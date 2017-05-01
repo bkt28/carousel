@@ -33,13 +33,7 @@ d3.selection.prototype.moveToFront = function() {
 posterGroup.append("rect")
 .attr("width", posterWidth)
 .attr("height", posterHeight)
-.style("fill", function (d, i) {
-	if (i % 3 == 0)
-		return "yellow";
-	if (i % 2 == 0)
-		return "cyan";
-	return "magenta";
-})
+.style("fill", "#35353e")
 .on("mouseover", function (d, i) {
 	if (i % numberVisible != 0 && ((i + 1) % numberVisible != 0)) {
 		d3.select("#poster_" + i).transition()
