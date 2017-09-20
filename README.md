@@ -1,6 +1,6 @@
 # carousel
 
-Netflix-style carousel implemented using D3.js
+A Netflix-style carousel implemented using D3.js
 
 # Demo
 
